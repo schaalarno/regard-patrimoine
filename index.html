@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regard & Patrimoine</title>
+    <meta
+      name="description"
+      content="Regard & Patrimoine — une société artisanale au service de la pierre."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#home" class="brand" aria-label="Accueil Regard & Patrimoine">
+          <img src="docs/SVG/logo_noir.svg" alt="Regard & Patrimoine logo" />
+        </a>
+
+        <nav class="main-nav" aria-label="Navigation principale">
+          <a href="#home">Accueil</a>
+          <a href="#about">À propos</a>
+          <a href="#projects">Réalisations</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero section reveal">
+        <div class="container hero-content">
+          <img
+            src="docs/SVG/logo_noir.svg"
+            alt="Regard & Patrimoine"
+            class="hero-logo"
+          />
+          <p class="hero-tagline">une société artisanale au service de la pierre</p>
+        </div>
+      </section>
+
+      <section id="about" class="about section reveal">
+        <div class="container about-grid">
+          <div class="about-copy">
+            <p class="eyebrow">Notre savoir-faire</p>
+            <h2>Un artisanat de précision au coeur de la pierre.</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mollis
+              massa a nibh viverra, nec luctus ipsum luctus. Vestibulum ante ipsum
+              primis in faucibus orci luctus et ultrices posuere cubilia curae;
+              Quisque dapibus, ipsum nec vulputate semper, eros nunc efficitur odio,
+              ac placerat orci neque in arcu.
+            </p>
+            <p>
+              Praesent semper, mi non tempus fermentum, nibh elit elementum nibh,
+              eget pellentesque libero velit ac augue. Suspendisse potenti. Nullam et
+              risus at mauris tincidunt varius.
+            </p>
+          </div>
+
+          <div class="about-portrait-wrap">
+            <div class="portrait-frame">
+              <img
+                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80"
+                alt="Portrait de l'artisan"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects section reveal">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Nos projets</p>
+            <h2>Des réalisations qui racontent la pierre.</h2>
+          </div>
+
+          <div class="carousel" aria-label="Carrousel des projets">
+            <button class="carousel-btn prev" aria-label="Projet précédent">←</button>
+
+            <div class="carousel-viewport">
+              <div class="project-track">
+                <a class="project-card" href="projects/project-1.html" aria-label="Voir le projet 1">
+                  <div class="project-image project-1"></div>
+                  <div class="project-info">
+                    <span>Projet 01</span>
+                    <h3>Façade d'exception</h3>
+                  </div>
+                </a>
+
+                <a class="project-card" href="projects/project-2.html" aria-label="Voir le projet 2">
+                  <div class="project-image project-2"></div>
+                  <div class="project-info">
+                    <span>Projet 02</span>
+                    <h3>Escalier monumental</h3>
+                  </div>
+                </a>
+
+                <a class="project-card" href="projects/project-3.html" aria-label="Voir le projet 3">
+                  <div class="project-image project-3"></div>
+                  <div class="project-info">
+                    <span>Projet 03</span>
+                    <h3>Restauration patrimoniale</h3>
+                  </div>
+                </a>
+
+                <a class="project-card" href="projects/project-1.html" aria-label="Voir le projet 4">
+                  <div class="project-image project-4"></div>
+                  <div class="project-info">
+                    <span>Projet 04</span>
+                    <h3>Parcours de pierre</h3>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <button class="carousel-btn next" aria-label="Projet suivant">→</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-inner">
+        <img src="docs/SVG/logo_noir.svg" alt="Regard & Patrimoine" class="footer-logo" />
+        <p>Contact — Lorem ipsum dolor sit amet</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
